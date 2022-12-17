@@ -1,0 +1,92 @@
+git --version
+    2  sudo apt update
+    3  clear
+    4  sudo apt install git
+    5  git --version
+    6  git config --global user.email "vzm.awstraining1@gmail.com"
+    7  git config --global user.name "Vzmskml"
+    8  git init
+    9  ls -a
+   10  git status
+   11  ls
+   12  clear
+   13  touch test1.txt
+   14  ls
+   15  git add test1.txt
+   16  ls
+   17  git status
+   18  git commit -m "adding firstfile"
+   19  ls
+   20  git status
+   21  clear
+   22  git status
+   23  clear
+   24  git branch first
+   25  git checkout first
+   26  ls
+   27  touch test2.txt
+   28  ls
+   29  git add test2.txt
+   30  git commit -m "adding file to first"
+   31  git checkout master
+   32  ls
+   33  clear
+   34  git checkout first
+   35  ls
+   36  git status
+   37  ls
+   38  git checkout master
+   39  ls
+   40  git merge first
+   41  clear
+   42  ls
+   43  git status
+   44  git branch second
+   45  git checkout second
+   46  touch test3.txt
+   47  ls
+   48  git checkout master
+   49  clear
+   50  ls
+   51  git chekout second
+   52  git checkout second
+   53  ls
+   54  git status
+   55  git add test3.txt
+   56  git commit -m "adding file to second"
+   57  ls
+   58  git status
+   59  clear
+   60  git checkout master
+   61  ls
+   62  git checkout first
+   63  ls
+   64  git checkout master
+   65  git rebase second
+   66  ls
+   67  git staus
+   68  git status
+   69  ls
+   70  clear
+   71  git log
+   72  git status
+   73  touch virat.txt
+   74  ls
+   75  git add virat.txt
+   76  git commit -m "adding virat file"
+   77  git log
+   78  git checkout second
+   79  touch anushka.txt
+   80  git add anushka.txt
+   81  git commit -m "addin anushka.txt"
+   82  git log
+   83  git checkout master
+   84  ls
+   85  git merge second
+   86  clear
+   87  ls
+   88  git status
+   89  ls
+   90  git logs
+   91  git log
+   92  history
